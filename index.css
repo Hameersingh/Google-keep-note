@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading-style{
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(217, 190, 35);
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+footer{
+    margin: 58vh 0px 0px 0px;
+    text-align: center;
+    background-color: #f1e8e8;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center-div form{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.center-div input{
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border: 1px solid grey;
+    border-bottom: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.center-div textarea{
+    width:350px;
+    height: 100px;
+    outline: none;
+    border: 1px solid grey;
+    border-top: none;
+    padding-left: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.center-div .btn{
+    position: absolute;
+    padding: 10px 15px;
+    margin: 140px 0px 0px 280px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    color: rgb(236, 206, 32);
+    cursor: pointer;
+
+
+}
+
+.main-note{
+    background-color: rgba(215, 209, 146, 0.619);
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding-right: 5px;
+}
+.center-note{
+    display: flex;
+}
+.main-note h1{
+    padding: 5px;
+    font-size: 20px;
+}
+.main-note p{
+    padding-left: 5px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.deleteIcon{
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: none;
+    color: rgb(217, 190, 35);
+    font-size: 20px;
+    float: right;
+    margin: 60px 10px 0px 0px;
+
+}
